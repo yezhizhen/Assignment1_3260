@@ -48,16 +48,24 @@ void init(void) // All Setup For OpenGL Goes Here
 void display(void) // Here's Where We Do All The Drawing
 {
 
-	//glClearColor(0, 0.0, 0.0, 1);
+	glClearColor(0, 0.0, 0.0, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
 
 	glBegin(GL_TRIANGLES);
-		glVertex2f(-0.5,-2.5);
+		glVertex2f(-0.5,-1);
 		glVertex2f(0.5,0.0);
 		glVertex2f(0.0,0.0);
 	glEnd();
-	glutSwapBuffers();
 	
+	
+	glBegin(GL_POLYGON);
+      glVertex3f (0.25, 0.25, 0.0);
+      glVertex3f (0.75, 0.25, 0.0);
+      glVertex3f (0.75, 0.75, 0.0);
+      glVertex3f (0.25, 0.75, 0.0);
+   glEnd();
+   
+   glutSwapBuffers();
 	//gluLookAt(cam_X,cam_Y,cam_Z, cam_ViewX, cam_ViewY, cam_ViewZ, 0, 1, 0);
 	//glTranslatef(0, 0, -550);
 	
@@ -83,7 +91,7 @@ void display(void) // Here's Where We Do All The Drawing
 
 
 	// Refresh the frame
-	//glutPostRedisplay();
+	glutPostRedisplay();
 }
 
 
@@ -118,6 +126,19 @@ void special(int key, int x, int y) // Handle special keys
 	}
 }
 
+void menuclick(int value){
+	switch(value){
+		case 0:
+			printf("Full screen entry selected!\n");
+			glutFullScreen();
+			break;
+		case 1:
+			glutDetachMenu(GLUT_RIGHT_BUTTON);
+			break;
+	}
+
+}
+
 void keyboard(unsigned char key, int x, int y) // Handle the keyboard events here
 {	
 	printf("pressed key: %d\n",key);
@@ -130,7 +151,16 @@ void keyboard(unsigned char key, int x, int y) // Handle the keyboard events her
 		case 27://press 'esc' to quit
 		   exit(0);
 		   break;
-	//	case '1':
+	//	case 'p':
+	//		glutPushWindow();
+	//		break;
+	//	case 'o':
+	//		glutPopWindow();
+	//		break;
+	//	case 'f':
+	//		glutFullScreen();
+	//		break;
+		//	case '1':
 	//		glutDestroyWindow(glutGetWindow());
 	   /*
 		   // TODO:
@@ -164,6 +194,13 @@ void idle()
 }
 
 
+//add the menu here
+void setMenu(){
+	int menuidentifier = glutCreateMenu(menuclick);
+	glutAddMenuEntry("full screen",0);
+	glutAddMenuEntry("Detach the mouse",1);
+	glutAttachMenu(GLUT_RIGHT_BUTTON);
+}
 void main(int argc, char** argv)
 {
 
@@ -178,7 +215,7 @@ void main(int argc, char** argv)
 	int windownumber = glutCreateWindow("Assignment 1");
 	//printf("window number: %d\n",windownumber);
 	init();	/*not GLUT call, initialize several parameters */
-
+	
 	/*Register different CALLBACK function for GLUT to response 
 	with different events, e.g. window sizing, mouse click or
 	keyboard stroke */
@@ -188,6 +225,8 @@ void main(int argc, char** argv)
 	glutSpecialFunc(special);
 	glutPassiveMotionFunc(mousemove);
 	glutMouseFunc(mouseclick);
+	setMenu();
+	
 	//the idle callback is continuously called when events are not being received
 	glutIdleFunc(idle);
 	
@@ -195,6 +234,7 @@ void main(int argc, char** argv)
 	/*Enter the GLUT event processing loop which never returns.
 	it will call different registered CALLBACK according
 	to different events. */
+	//glutFullScreen();
 	glutMainLoop();
 	
 }
