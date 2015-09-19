@@ -1,2 +1,2 @@
-# Assignment1_3260
-OpenGL
+
+OpenGL Journey just begin.
