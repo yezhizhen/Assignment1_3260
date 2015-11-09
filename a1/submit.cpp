@@ -51,6 +51,7 @@ void init(void) // All Setup For OpenGL Goes Here
 	static GLfloat light0_specular[] = {0.5,0.5,0.5,1.f};
 	glClearColor(0.0, 0.0, 0.0, 0.0);
 	glShadeModel(GL_SMOOTH);
+	//glShadeModel(GL_FLAT);
 	glLightfv(GL_LIGHT0, GL_POSITION, light0pos);
 	glLightfv(GL_LIGHT0, GL_AMBIENT, light0_emb);
 	glLightfv(GL_LIGHT0, GL_DIFFUSE, light0_diff1);
@@ -276,6 +277,25 @@ void drawDesk(void)
 
 }
 
+void drawtest(void)
+{
+	static GLfloat house_shininess[] = {5.0};
+	static GLfloat house_diffuse[] = {0.6,0.6,0.2,1.0};
+	static GLfloat house_specular[] = {0.3, 0.3, 0.3, 1.0};
+	glMaterialfv(GL_FRONT,GL_DIFFUSE, house_diffuse);
+	glMaterialfv(GL_FRONT,GL_SPECULAR, house_specular);
+	glMaterialfv(GL_FRONT,GL_SHININESS, house_shininess);
+	glPushMatrix();
+	glTranslated(-1.5,-1,0);
+	glScaled(2,1,1);
+	glPushMatrix();
+	glRotated(20,0,0,1);
+	glutSolidCube(0.9);
+	glPopMatrix();
+	glutSolidCube(0.9);
+	glPopMatrix();
+}
+
 void drawHouse(void)
 {
 	glPushMatrix();
@@ -343,6 +363,7 @@ void display(void) // Here's Where We Do All The Drawing
 	glPushMatrix();
 	gluLookAt(cam_X,cam_Y,cam_Z, cam_ViewX, cam_ViewY, cam_ViewZ, 0, 1, 1);
 	drawGround();
+	//drawtest();
 	drawSun();
 	drawDesk();
 	drawTrees();
