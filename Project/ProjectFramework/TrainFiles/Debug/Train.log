@@ -1,0 +1,73 @@
+﻿Build started 12/9/2015 12:55:03 PM.
+     1>Project "C:\Users\yzz\Desktop\Learning\Course Source\2015-2016\3260\Assignment\git_place\Workspace\git_rep\Project\ProjectFramework\TrainFiles\Train.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../WinFltk/include /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TrainView.cpp
+         TrainView.cpp
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(101): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(215): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(221): warning C4244: '=' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(402): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(416): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(431): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(435): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(440): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(444): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(446): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(452): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(474): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(485): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(499): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(513): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(515): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(560): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(568): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(571): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(585): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(588): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(591): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(594): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(596): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(614): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(633): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(641): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(886): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(901): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(916): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(923): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(924): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(925): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(926): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(933): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(934): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(935): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(936): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(939): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(940): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(941): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(942): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(949): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(960): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(974): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(1000): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(1007): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(1014): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(1021): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yzz\desktop\learning\course source\2015-2016\3260\assignment\git_place\workspace\git_rep\project\projectframework\trainfiles\trainview.cpp(1026): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yzz\Desktop\Learning\Course Source\2015-2016\3260\Assignment\git_place\Workspace\git_rep\Project\ProjectFramework\TrainFiles\Debug\Train.exe" /INCREMENTAL /NOLOGO /LIBPATH:../WinFltk/lib glut32.lib comctl32.lib wsock32.lib opengl32.lib glu32.lib fltkgld.lib fltkd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\yzz\Desktop\Learning\Course Source\2015-2016\3260\Assignment\git_place\Workspace\git_rep\Project\ProjectFramework\TrainFiles\Debug\Train.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\yzz\Desktop\Learning\Course Source\2015-2016\3260\Assignment\git_place\Workspace\git_rep\Project\ProjectFramework\TrainFiles\Debug\Train.lib" /MACHINE:X86 /SAFESEH Debug\bitmap.obj
+         Debug\CallBacks.obj
+         Debug\ControlPoint.obj
+         Debug\MyObjects.obj
+         Debug\Train.obj
+         Debug\TrainView.obj
+         Debug\TrainWindow.obj
+         Debug\World.obj
+         Debug\3DUtils.obj
+         Debug\ArcBallCam.obj
+         Debug\Pnt3f.obj
+         Train.vcxproj -> C:\Users\yzz\Desktop\Learning\Course Source\2015-2016\3260\Assignment\git_place\Workspace\git_rep\Project\ProjectFramework\TrainFiles\Debug\Train.exe
+     1>Done Building Project "C:\Users\yzz\Desktop\Learning\Course Source\2015-2016\3260\Assignment\git_place\Workspace\git_rep\Project\ProjectFramework\TrainFiles\Train.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.03

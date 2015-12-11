@@ -1,7 +1,7 @@
 // Ass2.cpp : Defines the entry point for the console application.
 // Author: YE ZHIZHEN
 // SID: 1155046993
-
+#include "bitmap.h"
 #include <windows.h>
 #include <gl\gl.h>
 #include <gl\glu.h>
@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-#include "bitmap.h"
+
 #include <cmath>
 
 #define FRONT_RADIUS 0.05
@@ -123,7 +123,6 @@ void init()
 	/* Add code here to initialize lighting, read bitmap images, initialize different GLU geometry
 	* use glLight, TextureLoadBitmap, gluNewQuadric...etc
 	*/
-	
 
 	//light 0
 	//position
@@ -245,7 +244,6 @@ void drawParticle(float v)
 			xs = (static_cast <float> (rand()) / static_cast <float> (RAND_MAX/width))-width/2;
 			glPushMatrix();
 				glTranslatef(xs,-distance,0);
-				
 				gluSphere(cylinder,0.01,5,5);
 			glPopMatrix();
 		}
